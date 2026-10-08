@@ -1,4 +1,4 @@
-I'd like to make my own version of Floratype (floratype.vercel.app), a type generator by Ojas P. Singh: as you type, stems and roses grow out of the letters. Space cuts the stems so the next word grows a new garden, backspace withers, enter clears.
+I'd like to make my own version of Floratype (floratype.vercel.app), a type generator by Ojas Pratap Singh: as you type, stems and roses grow out of the letters. Space cuts the stems so the next word grows a new garden, backspace withers, enter clears.
 
 Its full source is below. It was written for Claude Design, so please rebuild it as one self-contained HTML file that runs in any browser (canvas + plain JavaScript, no build step), keeping the drawing and motion as close to the original as you can. Use Playfair Display Bold from Google Fonts for the letters (the original, GT Ultra Fine, is a commercial font) and DM Mono for the interface.
 

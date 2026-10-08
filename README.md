@@ -44,5 +44,4 @@ Then visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 👤 Author
 
-**Project by Ojas P. Singh**  
-- Twitter: [@ojasp_singh](https://x.com/ojasp_singh)
+**Project by Ojas Pratap Singh**
