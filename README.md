@@ -20,9 +20,45 @@
 
 ---
 
-## 🎨 Color Palettes & Aesthetics
+## 🏛️ Poster Mode & Kinetic Video Export
 
-Floratype features real-time procedural color rendering across five distinct editorial atmospheres:
+Floratype includes a full-featured **Poster Mode Studio** designed for designers, motion artists, and typographers to choreograph procedural plant life and export animated videos:
+
+<div align="center">
+  <img src="./screenshots/floratype_poster_mode.png" alt="Floratype Poster Mode Studio Interface" width="95%" style="border-radius: 10px; box-shadow: 0 15px 35px rgba(0,0,0,0.7); margin-bottom: 20px;" />
+</div>
+
+### 🎬 Cinema-Grade MP4 Export & Motion Loops
+Transform live kinetic typography into high-definition looped video files directly in the browser:
+- **`Export MP4 loop`**: Renders a perfect **1080 × 1080 square format** seamless kinetic animation at 60 FPS, ready for Instagram, X, digital signage, and motion portfolios.
+- **`PNG frames (.zip)`**: Export every rendered frame as individual lossless PNGs for compositing in After Effects, Premiere, or Blender.
+
+### 🌊 Choreographed Motion Presets
+Customize the organic behavior of the flora with curated kinetic simulations:
+- **Breathe**: Gentle harmonic sway with slow-motion line-boil dynamics (`2s`).
+- **Grow & Wither**: Full botanical lifecycle from seed bloom to decay (`6s`).
+- **Typed**: Simulates dynamic human keystrokes, automatic branch slicing, and regrowth (`6s`).
+- **Gust**: Turbulent wind sweeps across the canvas, bending stems and scattering petals (`4s`).
+- **Reach**: Stems dynamically track and lean toward virtual light sources (`8s`).
+- **Scatter**: Organic random-bloom distribution across letterforms with graceful fading (`6s`).
+- **Visitor**: A delicate procedural butterfly visits and pollinates the blossoms (`7s`).
+
+### 🎨 Expanded Palette System
+Switch dynamically between rich editorial palettes:
+- **Rose Noir** (Obsidian & Crimson)
+- **Paper** (Cream & Cobalt)
+- **Midnight** (Deep Sapphire)
+- **Citrus** (Forest Green & Tangerine)
+- **Orchid** (Plum & Lilac)
+- **Moss** (Sage & Emerald)
+- **Tomato** (Vermilion & Cream)
+- **Butter** (Warm Ochre)
+- **Blush** (Pale Rose & Ruby)
+- **Mono** (Silver & Charcoal)
+
+---
+
+## 🎨 Gallery: Real-Time Color Atmospheres
 
 <div align="center">
 
@@ -62,25 +98,6 @@ Designed with an obsession for micro-interactions, responsive typography, and ta
 | **Backspace** | Blooms and vines wither | Time-decay withering curve gracefully collapses petals back into dormancy |
 | **Mouse / Touch Drag** | Flora leans toward pointer | Vector gravitational field pulls surrounding blooms and stems toward the cursor |
 | **Enter** | Garden reset & clear | Smooth canvas flush ready for new growth |
-
----
-
-## 🎨 Dual Experience Modes
-
-### 1. 🪷 Type Mode (Minimalist Fullscreen)
-- **Zero Distraction**: Immersive void-black canvas centered purely on typing and botanical bloom.
-- **Adaptive Typography**: Text auto-scales and word-wraps dynamically to maintain headroom for the overarching garden above and below.
-- **Responsive Soft Keyboard**: Leverages the modern `visualViewport` API (`--tg-top`, `--tg-h`) to fluidly adapt without layout shifts as virtual keyboards slide up on iOS Safari and Android Chrome.
-
-### 2. 🏛️ Poster Mode (Editorial Design Studio)
-- **Palette Presets**: Curated botanical color palettes including *Rose Noir*, *Gardenia*, *Hydrangea*, *Scarlet Marigold*, and *Monochrome*.
-- **Motion Physics Tuning**:
-  - **Line Boiling**: Toggle organic hand-drawn boiling line jitter powered by sinusoidal harmonics.
-  - **Recoil Intensity**: Adjust spring-damper velocity bounce on stems during typing.
-  - **Density Scale**: Control foliage fullness and branching frequency per glyph.
-- **Vector & High-Res Export**:
-  - Download high-DPI **PNG** posters for digital display.
-  - Export lossless, scalable **SVG** vectors suitable for print and plotter machines.
 
 ---
 
@@ -126,7 +143,7 @@ floratype/
 ├── server.js            # Zero-dependency local Node.js development server
 ├── source.txt           # Clean bundled engine source code
 ├── og.png               # High-resolution social graph banner (Floratype UI)
-├── screenshots/         # Curated palette screenshots (Dark, Cream, Pink, Red, Mono)
+├── screenshots/         # Curated UI & Studio screenshots (Poster Mode, Palettes)
 ├── favicon.svg          # Botanical vector favicon
 ├── favicon.ico          # Legacy multi-resolution icon
 ├── apple-touch-icon.png # iOS home screen icon
@@ -134,6 +151,7 @@ floratype/
 ```
 
 - **Canvas Pipeline**: Hardware-accelerated 2D Canvas context with 60 FPS `requestAnimationFrame` render loop.
+- **Video Renderer**: In-browser media recording encoding 1080×1080 canvas animations to seamless `.mp4` video loops.
 - **Procedural Engine**: Trigonometric curve solvers with seeded pseudo-random leaf clustering.
 - **Mobile Touch**: Coarse pointer event listener (`pointerdown`, `pointermove`, `pointerup`) + predictive input diffing for mobile virtual keyboards.
 
