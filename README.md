@@ -14,7 +14,32 @@
 
 <br/>
 
-<img src="./og.png" alt="Floratype Banner - Letters blooming with organic crimson roses and cobalt stems on void black" width="100%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.8);" />
+<img src="./og.png" alt="Floratype - Interactive Kinetic Typography Garden on Void Black" width="100%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.8);" />
+
+</div>
+
+---
+
+## 🎨 Color Palettes & Aesthetics
+
+Floratype features real-time procedural color rendering across five distinct editorial atmospheres:
+
+<div align="center">
+
+### 1. Rose Noir (Default Obsidian & Crimson)
+<img src="./screenshots/floratype_dark.png" alt="Floratype Rose Noir" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 2. Gardenia (Parchment & Electric Flora)
+<img src="./screenshots/floratype_cream.png" alt="Floratype Gardenia" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 3. Hydrangea (Petal Blush & Ruby Vines)
+<img src="./screenshots/floratype_pink.png" alt="Floratype Hydrangea" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 4. Scarlet Marigold (High-Contrast Vermilion)
+<img src="./screenshots/floratype_crimson.png" alt="Floratype Scarlet Marigold" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
+
+### 5. Monochrome Noir (Ink & Silver Flora)
+<img src="./screenshots/floratype_monochrome.png" alt="Floratype Monochrome" width="90%" style="border-radius: 8px; margin-bottom: 20px;" />
 
 </div>
 
@@ -48,7 +73,7 @@ Designed with an obsession for micro-interactions, responsive typography, and ta
 - **Responsive Soft Keyboard**: Leverages the modern `visualViewport` API (`--tg-top`, `--tg-h`) to fluidly adapt without layout shifts as virtual keyboards slide up on iOS Safari and Android Chrome.
 
 ### 2. 🏛️ Poster Mode (Editorial Design Studio)
-- **Palette Presets**: Curated botanical color palettes including *Rose Noir*, *Gardenia*, *Marigold*, *Hydrangea*, and *Monochrome*.
+- **Palette Presets**: Curated botanical color palettes including *Rose Noir*, *Gardenia*, *Hydrangea*, *Scarlet Marigold*, and *Monochrome*.
 - **Motion Physics Tuning**:
   - **Line Boiling**: Toggle organic hand-drawn boiling line jitter powered by sinusoidal harmonics.
   - **Recoil Intensity**: Adjust spring-damper velocity bounce on stems during typing.
@@ -64,7 +89,7 @@ Designed with an obsession for micro-interactions, responsive typography, and ta
 - **GT Ultra (Variable OpenType)**: Monumental, sculptural serif weights (100–900) providing anchor geometry for stem growth.
 - **Playfair Display**: Romantic high-contrast editorial serifs for refined delicate flourishes.
 - **DM Mono**: Utilitarian monospace metadata labels and HUD control coordinates (`letter-spacing: 0.04em`).
-- **Void Obsidian Stage (`#000000`)**: Deep black contrast amplifying vivid crimson petals (`#FF1400`), delicate rose accents (`#FFB4A8`), and electric cobalt stems (`#3257FF`).
+- **Obsidian Stage (`#000000`)**: Deep black contrast amplifying vivid crimson petals, delicate rose accents, and electric cobalt stems.
 
 ---
 
@@ -100,7 +125,8 @@ floratype/
 ├── index.html           # Self-contained reactive generative engine & canvas shaders
 ├── server.js            # Zero-dependency local Node.js development server
 ├── source.txt           # Clean bundled engine source code
-├── og.png               # High-resolution social graph banner
+├── og.png               # High-resolution social graph banner (Floratype UI)
+├── screenshots/         # Curated palette screenshots (Dark, Cream, Pink, Red, Mono)
 ├── favicon.svg          # Botanical vector favicon
 ├── favicon.ico          # Legacy multi-resolution icon
 ├── apple-touch-icon.png # iOS home screen icon
